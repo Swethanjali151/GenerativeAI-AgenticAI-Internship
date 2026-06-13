@@ -8,7 +8,7 @@ st.set_page_config(page_title="Gemini RAG App", page_icon="🤖", layout="center
 st.title("🤖 Prompt engineering using Gemini ")
 
 # Gemini API Key input (for demo purposes)
-api_key = st.text_input("AQ.ENTER UR GEMINI API KEY HERE", type="password")
+api_key = st.text_input("ENTER UR GEMINI API KEY HERE", type="password")
 
 if api_key:
     genai.configure(api_key=api_key)
